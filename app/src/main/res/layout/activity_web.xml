@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/common_toolbar"/>
+    <ProgressBar
+        style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5" />
+    <TextView
+        android:layout_gravity="center"
+        android:text="你确定你的链接是对的?"
+        android:id="@+id/tv"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <wanandroid.rpy.com.helloandroid.TX_X5.X5WebView
+        android:id="@+id/x5_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </wanandroid.rpy.com.helloandroid.TX_X5.X5WebView>
+
+
+</LinearLayout>
